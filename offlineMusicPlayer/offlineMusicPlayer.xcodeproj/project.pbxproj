@@ -11,6 +11,9 @@
 		9C11A394296BB935002D3426 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11A393296BB935002D3426 /* ContentView.swift */; };
 		9C11A396296BB935002D3426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A395296BB935002D3426 /* Assets.xcassets */; };
 		9C11A399296BB935002D3426 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A398296BB935002D3426 /* Preview Assets.xcassets */; };
+		9C11A3A0296BBEF9002D3426 /* Beat Thee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A39F296BBEF9002D3426 /* Beat Thee.mp3 */; };
+		9C11A3A4296BC089002D3426 /* Study and Relax.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A3A2296BC088002D3426 /* Study and Relax.mp3 */; };
+		9C11A3A5296BC089002D3426 /* The Celebrated Minuet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C11A3A3296BC089002D3426 /* The Celebrated Minuet.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		9C11A393296BB935002D3426 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C11A395296BB935002D3426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C11A398296BB935002D3426 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C11A39F296BBEF9002D3426 /* Beat Thee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beat Thee.mp3"; sourceTree = "<group>"; };
+		9C11A3A2296BC088002D3426 /* Study and Relax.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Study and Relax.mp3"; sourceTree = "<group>"; };
+		9C11A3A3296BC089002D3426 /* The Celebrated Minuet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Celebrated Minuet.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		9C11A390296BB935002D3426 /* offlineMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				9C11A3A1296BC074002D3426 /* Audio */,
 				9C11A391296BB935002D3426 /* offlineMusicPlayerApp.swift */,
 				9C11A393296BB935002D3426 /* ContentView.swift */,
 				9C11A395296BB935002D3426 /* Assets.xcassets */,
@@ -65,6 +72,16 @@
 				9C11A398296BB935002D3426 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C11A3A1296BC074002D3426 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				9C11A3A2296BC088002D3426 /* Study and Relax.mp3 */,
+				9C11A3A3296BC089002D3426 /* The Celebrated Minuet.mp3 */,
+				9C11A39F296BBEF9002D3426 /* Beat Thee.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C11A3A0296BBEF9002D3426 /* Beat Thee.mp3 in Resources */,
+				9C11A3A4296BC089002D3426 /* Study and Relax.mp3 in Resources */,
 				9C11A399296BB935002D3426 /* Preview Assets.xcassets in Resources */,
+				9C11A3A5296BC089002D3426 /* The Celebrated Minuet.mp3 in Resources */,
 				9C11A396296BB935002D3426 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
